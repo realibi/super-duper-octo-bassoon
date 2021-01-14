@@ -1,0 +1,110 @@
+body{
+    font-family: "Source Sans Pro", sans-serif;
+}
+.joinus{
+    margin-top: 5%;
+}
+
+.joinus>h1{
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.paragraph{
+    color: #575756;
+    font-size: 16px;
+    font-weight: 400px;
+    -webkit-font-smoothing: antialiased;
+}
+.headertxt{
+    color: #7791b0;
+}
+.litxt:before{
+    content: '';
+    display: inline-block;
+    height: 9px;
+    width: 9px;
+    vertical-align: middle;
+    border-radius:50%;
+    background-color:#575756;
+    margin-right:5px;
+  }
+.ul_spisok{
+    list-style:none;
+    margin:0;
+    padding: 0;
+}
+.line{
+    height: 2px;
+    width: 100%;
+    background: #575756;
+}
+.joinus_line{
+    margin-top: 1.5%;
+}
+.society{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.headerspan{
+    font-weight: bold;
+}
+.society_block1{
+    margin-top: 5%;
+}
+
+.society_block1 > p{
+    margin-top: 0.5%;
+}
+
+.society_membership{
+    margin-top: 5%;
+}
+
+.boldtxt{
+    font-size: 16px;
+    font-weight: 600;
+    color: #575756;
+}
+
+.society_payment{
+    margin-top: 5%;
+}
+
+.redlink{
+    color: #AE1917;
+}
+
+.redlink:hover{
+    color: #AE1917;
+}
+
+.society_payment_note{
+    margin-top: 5%;
+}
+
+.formblock{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+label{
+    display: block;
+}
+input[type=submit] {
+    text-decoration: none;
+    border: 0;
+    padding: 0.8125em 1.875em 0.8125em 1.875em;
+    margin: 0em 0em 1.25em 0em;
+    display: inline-block;
+    color: #fff;
+    background: rgba(119, 145, 176, 0.7);
+    border-radius: 4px;
+    line-height: 150%;
+}
+
+.foot_line{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
