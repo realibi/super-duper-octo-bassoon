@@ -1,0 +1,91 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  font-style: normal;
+  color: #575756;
+}
+
+::selection {
+  background: #ae1917;
+  color: #fff;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  display: grid;
+  grid-template-areas:
+    "p1 p1 p1 p1"
+    "p2 p2 p2 p2"
+    "p3 p3 p3 p3"
+    "p4 p4 p4 p4"
+    "img img img img"
+    "p5 p5 p5 p5"
+    "p6 p6 p6 p6"
+    "p7 p7 p7 p7"
+    "p8 p8 p8 p8";
+  row-gap: 1.5em;
+  align-items: center;
+  /* justify-content: center; */
+  /* grid-auto-columns: 200px; */
+}
+
+.p1 {
+  grid-area: p1;
+}
+
+.p2 {
+  grid-area: p2;
+  padding-left: 80px;
+}
+
+.p3 {
+  grid-area: p3;
+  padding-left: 80px;
+}
+
+.p3 > h3 {
+  font-size: 1.5em;
+}
+
+.p4 {
+  grid-area: p4;
+  padding-left: 80px;
+}
+
+.p5 {
+  grid-area: p5;
+  padding-left: 80px;
+}
+
+.p6 {
+  grid-area: p6;
+  padding-left: 80px;
+}
+
+.p7 {
+  grid-area: p7;
+  padding-left: 80px;
+}
+
+.p8 {
+  grid-area: p8;
+  padding-left: 80px;
+}
+
+.img {
+  grid-area: img;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  color: #7791b0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+hr {
+  border: 1px solid black;
+}
