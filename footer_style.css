@@ -1,0 +1,50 @@
+footer{
+    margin-top: 5%;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+.headertxt{
+    color: #7791b0;
+}
+.foot_head > p{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.paragraph{
+    color: #575756;
+    font-size: 16px;
+    font-weight: 400px;
+    -webkit-font-smoothing: antialiased;
+}
+.boldtxt{
+    font-size: 16px;
+    font-weight: 600;
+    color: #575756;
+}
+.redlink{
+    color: #AE1917;
+}
+
+.redlink:hover{
+    color: #AE1917;
+}
+
+.foot_c{
+    margin-top: 5%;
+}
+
+.amargin{
+    margin-top: 3%;
+}
+
+.socseti{
+    display: flex;
+}
+
+.soc{
+    margin-right: 2%;
+}
