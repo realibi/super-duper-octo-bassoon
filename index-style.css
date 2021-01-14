@@ -1,0 +1,120 @@
+.header__menu{
+    height: 100px;
+    width: 100%;
+}
+.block__menu{
+    background-color: wheat;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.img img{
+    width: 50%;
+    height: 700px;
+    margin-left: 950px;
+}
+
+.text{
+    position: absolute;
+    width: 40%;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.text span{
+    font-weight: bold;
+}
+
+.hr{
+    margin-left: 20%;
+    width: 60%;
+    height: 3px;
+    background-color: #76621e;
+    margin-top: 80px;
+}
+
+.block__main{
+    margin-top: 80px;
+    background-color: rgb(253, 244, 228);
+}
+
+.block1 img{
+    height: 500px;
+    width: 100%;
+}
+
+.block{
+    margin-left: 100px;
+}
+
+.names{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.names li{
+    font-weight: bold;
+    color: #575756;
+}
+
+.block p{
+    font-style: italic;
+}
+
+.block span{
+    color: white;
+}
+
+.block a{
+    text-decoration: none;
+}
+
+.block h3{
+    color: #76621e;
+}
+
+.block button{
+    width: 300px;
+    height: 50px;
+    background-color: #76621e;
+    margin-top: 70px;
+    border-style: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.blockk a{
+    color: #b2c1d2;
+}
+
+.block_ a{
+    color: #b2c1d2;
+}
+
+.block_ a:hover{
+    background-color: #6c9ed6;
+}
+
+.text2{
+    color: black;
+}
+
+.imagee img{
+    width: 100%;
+    height: 500px;
+}
+
+.upcom{
+    width: 80%;
+}
+
+.upcom:hover{
+    background-color: #b2c1d2;
+    padding: 5px;
+}
+
+.row{
+    margin-top: 50px;
+}
