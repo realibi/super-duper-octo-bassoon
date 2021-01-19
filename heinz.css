@@ -1,0 +1,143 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    padding: 0px 20%;
+}
+.first h1{
+    color: #7791b0;
+    font-size: 40px;
+    margin-bottom: 45px;
+    border-bottom: 2px solid #292929;
+}
+.first p{
+    width: 75%;
+    font-size: 20px;
+}
+.container2{
+    padding: 0px 7%;
+    
+}
+.container2 h2{
+    color: #7791b0;
+    font-size: 17px;
+}
+.container2 ul{
+    padding-left: 20px;
+}
+.container2 ul>span{
+    font-weight: italic;
+}
+.container2 li:nth-child(1){
+    padding-top: 10px;
+}
+.container2 li{
+    padding-top: 5px;
+}
+.container2 p{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.container2 p{
+    font-size: 15px;
+}
+.container2 img{
+    width: 100%;
+}
+.container2 span{
+    font-size: 15px;
+    display: flex;
+    flex-direction: left;
+}
+.container2 p{
+    font-size: 17px;
+}
+.container2 a{
+    color: firebrick;
+    text-decoration: none;
+}
+.container2 a:hover{
+    text-decoration: underline;
+}
+.container2 img{
+    margin: 0px -50px;
+}
+.text p{
+    font-size: 15px;
+    display: flex;
+    flex-direction: left;
+    padding-top: 0px;
+}
+.text span{
+    font-size: 15px;
+    font-weight: italic;
+}
+.container2 h3{
+    color: #7791b0;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    
+}
+input{
+    border: 1px;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    font-size: 15px;
+    color: #757574;
+}
+input:valid{
+    outline: none;
+}
+.inpdate{
+    width: 50px;
+    margin: 5px 5px;
+}
+.action{
+    margin-top: 10px;
+    width: 75%;
+    color: #757574;
+    font-size: 17px;
+}
+textarea{
+    outline: none;
+    border: none;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+textarea:valid{
+    outline: none;
+    border: none;
+}
+.recaptcha{
+    box-sizing: border-box;
+    border: 1px solid #777;
+    height: 50px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.capt{
+    margin: 5px;
+    padding: 5px;
+}
+.button{
+    margin: 10px 0px;
+}
+.send{
+    padding: 15px 20px;
+    background-color: #a0b2c8;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.send:hover{
+    background-color: #7791b0;
+    border: none;
+    outline: none;
+}
